@@ -1,0 +1,203 @@
+body {
+  background: rgb(2,0,36);
+background: linear-gradient(147deg, rgba(2,0,36,1) 0%, rgba(255,0,181,1) 0%, rgba(0,212,255,0.9051995798319328) 77%);
+  font-family: 'Roboto', sans-serif;
+  text-align:justify
+  }
+
+.navbar {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  top:0;
+}
+
+.titlenav{
+  font-family: 'Roboto', sans-serif;
+  margin-right: 50px;
+}
+
+.nav-item{
+  font-size:20px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  margin-inline: 20px
+}
+
+.input-search {
+  padding: 10px;
+  border-radius: 5px;
+  border-color:rgb(248, 91, 18);
+  transition: all 0.1 ease
+}
+
+.input-search:focus {
+    outline: none;
+    border-width: 5px;
+    border-color: rgba(248, 91, 18, 0.3);
+    transition: all 0.1s ease
+}
+
+.input-search:not(:focus){
+  transition: all 0.1s ease
+}
+
+.btn-search {
+  border-color: rgba(248, 91, 18);
+  background-color: white;
+  padding: 9px;
+  border-width: 4px;
+  color: rgba(248, 91, 18);
+  border-radius: 6px
+}
+
+.nav-container {
+  display:flex;
+  align-items: center;
+  padding-inline: 20px
+}
+
+.nav-item:hover {
+  text-decoration: underline
+}
+
+.container-html {
+  padding-inline: 50px
+}
+
+.title {
+  text-align: center
+}
+
+.navbar {
+  background-color: white;
+  padding-block: 5px;
+  padding-inline: 40px
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 20px
+}
+
+.autor-imagen {
+  width: 20%;
+  height: 20%;
+  border-radius: 10px
+}
+
+.dibujos-imagen {
+   width: 20%;
+   height: 20%;
+   margin-inline: 20px
+}
+
+.bibliografia {
+  font-size: 13px
+}
+
+h1 {
+  border:5px orange double;
+  padding: lightorange;
+  z-index:2;
+  background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20201015/pngtree-modern-low-poly-background-with-red-and-blue-gradient-colors-image_417695.jpg );
+  font-family:Times New Roman;
+  z-index:2;
+  
+    }
+    }
+  h2 {
+    font-size:200%;
+    text-align:center;
+    font-family:Times New Roman;
+    color:rgb(248, 91, 18);
+  }
+h3 {
+    font-size:200%;
+    text-align:left;
+    font-family:Times New Roman;
+  color:rgb(247, 169, 49);
+   
+  }
+
+  h4{
+    border:5px orange double;
+    color:rgb(247, 169, 49);
+    background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20201015/pngtree-modern-low-poly-background-with-red-and-blue-gradient-colors-image_417695.jpg );
+    font-size:25px;
+  }
+
+
+.container-theme {
+  display:flex;
+  justify-content: center
+}
+
+.bibliografia {
+  font-size: 13px;
+}
+
+#monografía {
+  padding: 50px;
+  border-radius: 20px;
+  background:rgb(248, 208, 109);
+            width: 80%;
+            height: 50rem;
+            overflow-y: auto;
+           margin:50px;
+}
+   .background{
+              margin:15px;
+              border:10px;
+              position:relative; 
+              z-index:3
+              }
+  .Pensarte{
+              float:rigth;
+                
+             }
+    #textos{
+      font-size:10px;
+    }
+   .footer p {
+    color: white;
+}
+
+.footer i {
+    font-size: 30px;
+    color: white;
+    margin: 0 5px;
+}
+
+.footer i:hover {
+    color: gray;
+}
+    .footer {
+  
+    padding: 20px 0;
+    margin-top: 15px;
+}
+    header {
+    margin-top: 10px;
+}
+     #Gemma {
+                width: 100px;
+                float:left;
+                margin-left:10px;
+                margin-right:10px;
+            }
+            #Gemma-texto {
+                background: rgb(255, 255, 219);
+                float:right;
+                width:40%;
+                margin-left:10px;
+                margin-right:10px;
+            }
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
